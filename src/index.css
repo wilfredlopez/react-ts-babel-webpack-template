@@ -7,3 +7,25 @@ body {
   background-color: rgb(75, 74, 74);
   color: rgb(235, 242, 255);
 }
+
+.btn {
+  font-size: 15px;
+  padding: 8px 12px;
+  border: 1px solid #006079;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 2px;
+  background: #006079;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  outline: none;
+  background: #015266;
+}
+
+.btn:focus {
+  outline: none;
+}

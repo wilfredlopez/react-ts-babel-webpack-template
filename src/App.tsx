@@ -1,6 +1,7 @@
 import reactImage from './assets/react.png'
 import logoSVG from './assets/react.svg'
 import classes from './app.module.css'
+import { ClickCounter } from './ClickCounter'
 
 export const App = () => {
   return (
@@ -23,6 +24,7 @@ export const App = () => {
       </header>
       <main className={classes.Main}>
         <h1>React TS Babel Template</h1>
+        <ClickCounter />
       </main>
     </div>
   )
